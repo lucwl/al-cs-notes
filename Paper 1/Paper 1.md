@@ -1,3 +1,3 @@
 ## Units
-- [[3 - Fundamentals of Programming]]
+- [[3 - Fundamentals of Algorithms]]
 - [[4 - Theory of Computation]]
