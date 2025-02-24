@@ -51,6 +51,11 @@ Entity-relationship diagrams (or ER diagrams) are used to graphically represent 
 
 ### Primary and foreign keys
 
-A *primary key* is an attribute that provides a unique identifier for every entity in a database table. When tables are linked by a shared attribute 
+A *primary key* is an attribute that provides a unique identifier for every entity in a database table. When tables are linked by a shared attribute, the attribute must be a primary key in one table and is called a *foreign key* in the other.
 
+A primary key can be composed from multiple attributes in a single table, which is called a *composite primary key*.
+
+## Database normalisation
+
+Databases are normalised so that they can be more efficient without any compromise to the 
 
