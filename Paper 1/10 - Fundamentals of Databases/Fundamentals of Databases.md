@@ -83,6 +83,20 @@ For a database to be in *third normal form*, it must have no non-key dependencie
 
 ## Structured Query Language (SQL)
 
+SQL is a language used with databases. It is a declarative language, meaning that the programmer describes the result that's required rather than describing the process which should be followed.
 
+There are four main SQL commands:
+- SELECT
+- UPDATE
+- INSERT
+- DELETE
+
+### SQL Data Types
+
+| Data type     | Description |
+| ------------- | ----------- |
+| CHAR(size)    |             |
+| VARCHAR(size) |             |
+|               |             |
 
 
