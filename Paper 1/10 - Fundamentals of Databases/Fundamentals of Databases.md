@@ -41,4 +41,6 @@ There are three possible types of relationship between tables in a database:
 - One-to-many
 - Many-to-many
 
+### Entity-relationship diagrams
 
+Entity-relationship diagrams (or ER diagrams) are used to graphically represent the relationships between tables in a database. 
