@@ -81,6 +81,8 @@ For a database to be in *third normal form*, it must have no non-key dependencie
 
 > *All non-key attributes depend on the key, the whole key and nothing but the key*
 
+## Structured Query Language (SQL)
+
 
 
 
