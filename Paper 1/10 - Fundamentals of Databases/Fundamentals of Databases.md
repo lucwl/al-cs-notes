@@ -51,5 +51,6 @@ Entity-relationship diagrams (or ER diagrams) are used to graphically represent 
 
 ### Primary and foreign keys
 
+A *primary key* is an attribute that provides a unique identifier for every entity in a database table. When tables are linked by a shared attribute 
 
 
