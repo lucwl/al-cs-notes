@@ -116,5 +116,6 @@ This can be managed via the use of:
 - **Serialisation**
   Rather than locking a field, requests from other users are placed in a queue. Once the first user has finished using the field, the next command in the queue is executed and so on...
 - **Timestamp ordering**
-  Each command is assigned a timestamp which marks the point in time at which the field was initiated. The commands are issued in order of the 
-- Commitment ordering
+  Each command is assigned a timestamp which marks the point in time at which the field was initiated. The commands are carried out in the order of their timestamps.
+- **Commitment ordering**
+  An algorithm is used to work out the optimal order in which to issue commands on the same field. The algorithm takes into account the impact of commands on other parts of the database and attempts to minimise issues from occurring within the database.
