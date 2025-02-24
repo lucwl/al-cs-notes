@@ -45,4 +45,11 @@ There are three possible types of relationship between tables in a database:
 
 Entity-relationship diagrams (or ER diagrams) are used to graphically represent the relationships between tables in a database:
 - Tables are shown as rectangles
-- 
+- Lines represent different kinds of relationship
+
+![[Pasted image 20250224182427.png]]
+
+### Primary and foreign keys
+
+
+
