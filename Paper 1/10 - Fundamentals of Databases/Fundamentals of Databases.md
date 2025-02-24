@@ -57,5 +57,21 @@ A primary key can be composed from multiple attributes in a single table, which 
 
 ## Database normalisation
 
-Databases are normalised so that they can be more efficient without any compromise to the 
+Databases are normalised so that they can be more efficient without any compromise to the integrity of their data. Normalising databases involves ensuring that entities contain no redundant or repeated data.
 
+A database that has been normalised allows for faster searching and sorting than an unnormalised database thanks to the smaller tables created in the normalisation process. They are also easier to maintain, duplication of data is minimised and data consistency is improved.
+
+This helps reduce the number of update, insertion and deletion anomalies that occur.
+
+### First normal form (1NF)
+
+For a database to be in *first normal form*, it must have:
+- No repeating attributes
+- All attributes must be atomic (no column contains more than one value)
+
+### Second normal form (1NF)
+
+For a database to be in *second normal form*, it must have:
+- Satisfied first normal form
+- No partial key dependencies
+	
