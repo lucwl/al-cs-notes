@@ -93,10 +93,19 @@ There are four main SQL commands:
 
 ### SQL Data Types
 
-| Data type     | Description |
-| ------------- | ----------- |
-| CHAR(size)    |             |
-| VARCHAR(size) |             |
-|               |             |
+| Data type              | Description                                                                                                                         |
+| ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| CHAR(size)             | A string with the number of characters specified by size                                                                            |
+| VARCHAR(size)          | A variable-length string with any number of characters specified to size                                                            |
+| INT(size)              | A whole number of the number of bits provided by size                                                                               |
+| FLOAT(size, precision) | A number stored using the number of bits specified by size with digits after the decimal point up the number specified by precision |
+| DATE                   | A date in the form "YYYY-MM-DD"                                                                                                     |
+| DATETIME               | A time and date in the form "YYYY-MM-DD HH:MM:SS"                                                                                   |
+| TIME                   | A time in the format "HH:MM:SS"                                                                                                     |
+| YEAR                   | A year in either the format "YY" or "YYYY"                                                                                          |
 
+## Client server databases
 
+A client server database provides simultaneous access to a database for multiple clients. For example, social media websites have many users which are continuously being accessed and multiple users simultaneously.
+
+Users could request access to the same field at the same time, causing *concurrent access*. This can result in database updates being lost if two users edit a re
