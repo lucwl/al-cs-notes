@@ -108,4 +108,4 @@ There are four main SQL commands:
 
 A client server database provides simultaneous access to a database for multiple clients. For example, social media websites have many users which are continuously being accessed and multiple users simultaneously.
 
-Users could request access to the same field at the same time, causing *concurrent access*. This can result in database updates being lost if two users edit a re
+Users could request access to the same field at the same time, causing *concurrent access*. This can result in database updates being lost if two users edit a record at the same time
