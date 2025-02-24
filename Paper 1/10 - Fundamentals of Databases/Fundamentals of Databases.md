@@ -20,8 +20,25 @@ A database consisting of one table is known as a *flat file database*, while a d
 
 ### Entity identifiers 
 
-An entity identifier is a piece of data that uni
+An entity identifier is a piece of data that uniquely identifiers a specific entity in a table. This is a key concept in relational database design, enabling the creation of *primary keys* and *foreign keys*.
 
+In some tables, multiple attributes are combined to form an entity identifier, or *composite primary key*.
 
+### Entity description
+
+An entity description is used to describe what information is stored about an entity in a table:
+
+Customer (<u>CustomerID</u>, CustomerName, CustomerAddress, CustomerEmail)
+
+Underlined attributes form part of the entity identifier.
+
+## Relational databases
+
+The tables in a database can be related to each other, linked by common attributes.
+
+There are three possible types of relationship between tables in a database:
+- One-to-one
+- One-to-many
+- Many-to-many
 
 
