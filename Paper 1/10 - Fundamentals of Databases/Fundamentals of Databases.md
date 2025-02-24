@@ -47,7 +47,7 @@ Entity-relationship diagrams (or ER diagrams) are used to graphically represent 
 - Tables are shown as rectangles
 - Lines represent different kinds of relationship
 
-![[Pasted image 20250224182427.png]]
+![Entity relationships](/Static/entity-relationships.png)
 
 ### Primary and foreign keys
 
