@@ -66,12 +66,21 @@ This helps reduce the number of update, insertion and deletion anomalies that oc
 ### First normal form (1NF)
 
 For a database to be in *first normal form*, it must have:
-- No repeating attributes
-- All attributes must be atomic (no column contains more than one value)
+- **No repeating attributes**
+- **All attributes must be atomic (no column contains more than one value)**
 
 ### Second normal form (1NF)
 
 For a database to be in *second normal form*, it must have:
-- Satisfied first normal form
-- No partial key dependencies
-	
+- **Satisfied first normal form**
+- **No partial key dependencies (all attributes must depend on the entire composite key)**
+
+### Third normal form (1NF)
+
+For a database to be in *third normal form*, it must have no non-key dependencies.
+
+> *All non-key attributes depend on the key, the whole key and nothing but the key*
+
+
+
+
