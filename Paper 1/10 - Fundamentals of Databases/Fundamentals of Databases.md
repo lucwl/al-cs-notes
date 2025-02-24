@@ -6,10 +6,21 @@ A database is an organised collection of structured information.
 
 ## Data models
 
-A *data model* is an abstract model of what to store and what information to record.
+A *data model* is an abstract model of what to store and what information to record. It is made up of *entities* and *relationships*.
 
-An *entity* is a thing about which data should be stored
+An *entity* is a thing about which data should be stored, e.g. a user.
 
+An *attribute* is a characteristic or other piece of information about an entity, e.g. a username. 
+
+A *relationship* is the way entities are related to one another.
+
+Databases are formed of *tables* which are used to store multiple entities. Each entity is assigned its own row, with fields of that row storing the entity's attributes.
+
+A database consisting of one table is known as a *flat file database*, while a database consisting or 2 or more tables is known as a *relational database*.
+
+### Entity identifiers 
+
+An entity identifier is a piece of data that uni
 
 
 
