@@ -108,4 +108,13 @@ There are four main SQL commands:
 
 A client server database provides simultaneous access to a database for multiple clients. For example, social media websites have many users which are continuously being accessed and multiple users simultaneously.
 
-Users could request access to the same field at the same time, causing *concurrent access*. This can result in database updates being lost if two users edit a record at the same time
+Users could request access to the same field at the same time, causing *concurrent access*. This can result in database updates being lost if two users edit a record at the same time.
+
+This can be managed via the use of:
+- **Record locks**
+  When a record is accessed by one user, it is immediately locked to other users until the first user has finished using it. Other users are blocked from accessing or modifying the content of a field until the record has been unlocked.
+- **Serialisation**
+  Rather than locking a field, requests from other users are placed in a queue. Once the first user has finished using the field, the next command in the queue is executed and so on...
+- **Timestamp ordering**
+  Each command is assigned a timestamp which marks the point in time at which the field was initiated. The commands are issued in order of the 
+- Commitment ordering
