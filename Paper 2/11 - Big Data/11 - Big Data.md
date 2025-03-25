@@ -1,4 +1,4 @@
-'Big Data' is a catch-all ter for data that won't fit the usual containers.
+'Big Data' is a catch-all term for data that won't fit the usual containers.
 
 # Big Data
 
