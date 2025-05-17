@@ -10,3 +10,11 @@ Arrays can be created in multiple dimensions, for example to represent tabular d
 ## Fields, records and files
 
 Information is stored on computers as a series of *files*. Each file is made up of *records* which are composed of a number of *fields*.
+
+Files are a way of permanently storing data, which can later be accessed when the program or subroutine has finished running.
+
+Text files store data in a text encoding, such as ASCII or Unicode. Binary files represent items using binary values.
+## Abstract data types/data structures
+
+Abstract data structures do not 
+
