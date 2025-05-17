@@ -30,6 +30,11 @@ A *queue* is an abstract data structure based on an array.
 
 Items are retrieved from the front of the queue and new items are added at the rear of the queue. This can be described as first in, first out (FIFO).
 
-A queue can be implemented using a single dimensional array and two integer variables, designated 
+Common uses of queues include:
+- Buffering, storing data as it arrives until it can be processed
+- Simulating a card game
+- Performing breadth-first search (BFS)
+
+A queue can be implemented using a single dimensional array and two integer variables, designated Front Pointer (FP) and Rear Pointer (RP).
 
 
