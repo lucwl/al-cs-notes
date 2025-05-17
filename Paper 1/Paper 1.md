@@ -1,4 +1,5 @@
 ## Units
+- [[2 - Fundamentals of Data Structures]]
 - [[3 - Fundamentals of Algorithms]]
 - [[4 - Theory of Computation]]
 
