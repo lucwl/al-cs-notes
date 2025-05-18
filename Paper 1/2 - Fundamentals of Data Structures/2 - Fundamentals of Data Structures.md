@@ -187,8 +187,7 @@ For example:
 
 A *tree* is a connected, undirected graph with no cycles.
 
-
-
-
-
-
+Uses of a tree:
+- Creating binary search trees
+- Creating minimum spanning trees for a graph
+- File systems
