@@ -96,7 +96,7 @@ A stack can be implemented using a single-dimensional array and an integer varia
 
 The following actions can be performed on a stack:
 
-| Action     | Description                                                   |
+| **Action** | **Description**                                               |
 | ---------- | ------------------------------------------------------------- |
 | Push       | Add a new item to the top of the stack                        |
 | Pop        | Remove one item from the top of the stack                     |
@@ -139,9 +139,27 @@ In a *disconnected graph*, two or more vertices are not connected to the rest of
 
 ### Graph representation
 
-There are two ways to represent a graph on a computer system: using an *adjacency matrix* or using an *adjacency list*.
+There are two ways to represent a graph on a computer system: using an *adjacency list or using an *adjacency matrix*.
 
+#### Adjacency lists
 
+An *adjacency list* uses a list for each node to store details about adjacent nodes.
+
+For example:
+
+| **Vertex** | **Adjacent vertices** |
+| ---------- | --------------------- |
+| A          | B, C                  |
+| B          | A, C, E               |
+| C          | A, B, D               |
+| D          | C, E                  |
+| E          | B, D                  |
+
+This is efficient for *sparse graphs*, which have many vertices but few edges. An adjacency list only records existing connections in a graph, unlike an adjacency matrix which can store edges that do not exist.
+
+#### Adjacency matrices
+
+An *adjacency matrix* 
 
 
 
