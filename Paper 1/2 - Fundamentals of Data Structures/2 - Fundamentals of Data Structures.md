@@ -175,7 +175,17 @@ For example:
 | **D** | $\infty$ | $\infty$ | 35       | $\infty$ | 40       |
 | **E** | $\infty$ | 25       | $\infty$ | 40       | $\infty$ |
 
+#### Comparing an adjacency matrix to an adjacency list
 
+| **Adjacency matrix**                                                                            | **Adjacency list**                                                 |
+| ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| Suited to dense graphs                                                                          | Suited to sparse graphs                                            |
+| Memory inefficient, as all possible edges in the graph are stored, even those that do not exist | Memory efficient, as only edges that exist in the graph are stored |
+| Fast to query, edge can be fetched via row and column                                           | Slow to query, each item in a list must be searched sequentially   |
+
+## Trees
+
+A *tree* is a connected, undirected graph with no cycles.
 
 
 
