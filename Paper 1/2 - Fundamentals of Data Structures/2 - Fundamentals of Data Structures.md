@@ -25,7 +25,7 @@ Some data structures are *static*, meaning the memory allocated to them is fixed
 
 Other are *dynamic*, meaning the memory allocated to them can change at runtime, such as in the case of linked lists.
 
-### Queues
+## Queues
 
 A *queue* is an abstract data structure based on an array.
 
@@ -54,13 +54,13 @@ There are several types of queue:
 - Circular queue
 - Priority queue
 
-#### Linear queue
+### Linear queue
 
 In a *linear queue*, a front pointer is not needed.
 
 The first item in the array always represents the front of the queue. When an item is enqueued, every single item in the queue must be moved forwards in the array. This can be inefficient, especially for larger queues.
 
-#### Circular queue
+### Circular queue
 
 A *circular queue* uses a front pointer and a rear pointer.
 
@@ -72,7 +72,7 @@ This is much more efficient than a linear queue when the queue is large as it av
 
 However, it comes with more implementation complexity. A linear queue may be more appropriate for a smaller queue.
 
-#### Priority queue
+### Priority queue
 
 A *priority queue* enqueues items to the rear of a queue alongside a priority level.
 
@@ -80,7 +80,7 @@ Items with the highest priority are always dequeued first, so when a value is en
 
 An example of where this is used is applications on a computer system, which are assigned priorities. Applications being used by the user are prioritised over background applications, allowing for a faster user experience.
 
-### Stacks
+## Stacks
 
 A *stack* is another abstract data structure based on an array.
 
@@ -104,7 +104,7 @@ The following actions can be performed on a stack:
 | isEmpty    | Check if the queue is empty                                   |
 | isFull     | Check if the queue is full                                    |
 
-### Graphs
+## Graphs
 
 A *graph* is an abstract data structure designed to represent more complex relationships between items in datasets.
 
@@ -114,5 +114,34 @@ Uses of graphs include:
 - Computer networks
 - Project management
 - Game theory
+
+There are several types of graph:
+- Unweighted and undirected graphs
+- Weighted graphs
+- Directed graphs
+- Disconnected graphs 
+
+#### Unweighted and undirected graphs
+
+Simple graphs that show how two or more items are connected.
+
+#### Weighted graphs
+
+A *weighted* graph is used where the connection between two nodes has a cost or value, e.g. distance or time.
+
+#### Directed graphs
+
+In a *directed graph*, one or more edges has an arrow which indicates that the edge can only be traversed in one direction. For example, a one-way road. Not every edge needs to be one-directional. 
+
+#### Disconnected graphs
+
+In a *disconnected graph*, two or more vertices are not connected to the rest of the graph.
+
+### Graph representation
+
+There are two ways to represent a graph on a computer system: using an *adjacency matrix* or using an *adjacency list*.
+
+
+
 
 
