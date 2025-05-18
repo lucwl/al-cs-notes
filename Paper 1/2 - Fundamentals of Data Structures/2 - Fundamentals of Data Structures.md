@@ -37,4 +37,11 @@ Common uses of queues include:
 
 A queue can be implemented using a single dimensional array and two integer variables, designated Front Pointer (FP) and Rear Pointer (RP).
 
+The following actions can be performed on a queue:
+
+| Enqueue |     |
+| ------- | --- |
+| Dequeue |     |
+
+
 
