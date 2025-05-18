@@ -39,9 +39,33 @@ A queue can be implemented using a single dimensional array and two integer vari
 
 The following actions can be performed on a queue:
 
-| Enqueue |     |
-| ------- | --- |
-| Dequeue |     |
+| Action     | Description                                                     |
+| ---------- | --------------------------------------------------------------- |
+| Enqueue    | Push a new value to the end of the queue                        |
+| Dequeue    | Remove one item from the front of the queue                     |
+| Peek (Top) | Look at, but don't remove, one time from the front of the queue |
+| isEmpty    | Check if the queue is empy                                      |
+| isFull     | Check if the queue is full                                      |
+The last two actions are needed as the program could crash if an attempt is made to enqueue an item when the queue is full, or dequeue an item when the queue is empty.
+
+There are several types of queue:
+- Linear queue
+- Circular queue
+- Priority queue
+
+### Linear queues
+
+In a linear queue, a front pointer is not needed.
+
+The first item in the array always represents the front of the queue. When an item is enqueued, every single item in the queue must be moved forwards in the array. This can be inefficient, especially for larger queues.
+
+### Circular queues
+
+A circular queue uses a front pointer and a rear pointer.
+
+When an item is 
+
+
 
 
 
