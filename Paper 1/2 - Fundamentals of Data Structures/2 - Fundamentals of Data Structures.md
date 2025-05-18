@@ -14,6 +14,7 @@ Information is stored on computers as a series of *files*. Each file is made up 
 Files are a way of permanently storing data, which can later be accessed when the program or subroutine has finished running.
 
 Text files store data in a text encoding, such as ASCII or Unicode. Binary files represent items using binary values.
+
 ## Abstract data types/data structures
 
 Abstract data structures do not exist as data structures in their own right, they are implemented from other data structures.
@@ -41,10 +42,10 @@ The following actions can be performed on a queue:
 
 | Action     | Description                                                     |
 | ---------- | --------------------------------------------------------------- |
-| Enqueue    | Push a new value to the end of the queue                        |
+| Enqueue    | Add a new item to the end of the queue                          |
 | Dequeue    | Remove one item from the front of the queue                     |
-| Peek (Top) | Look at, but don't remove, one time from the front of the queue |
-| isEmpty    | Check if the queue is empy                                      |
+| Peek (Top) | Look at, but don't remove, one item from the front of the queue |
+| isEmpty    | Check if the queue is empty                                     |
 | isFull     | Check if the queue is full                                      |
 The last two actions are needed as the program could crash if an attempt is made to enqueue an item when the queue is full, or dequeue an item when the queue is empty.
 
@@ -89,6 +90,29 @@ Common uses of a stack include:
 - Reversing a list of values
 - Keeping track of and performing undo operations
 - A call stack for keeping track of subroutine calls
+- Evaluating RPN expressions
 
+A stack can be implemented using a single-dimensional array and an integer variable to point at the top of the stack.
+
+The following actions can be performed on a stack:
+
+| Action     | Description                                                   |
+| ---------- | ------------------------------------------------------------- |
+| Push       | Add a new item to the top of the stack                        |
+| Pop        | Remove one item from the top of the stack                     |
+| Peek (Top) | Look at, but don't remove, one item from the top of the stack |
+| isEmpty    | Check if the queue is empty                                   |
+| isFull     | Check if the queue is full                                    |
+
+### Graphs
+
+A *graph* is an abstract data structure designed to represent more complex relationships between items in datasets.
+
+Uses of graphs include:
+- Route finding
+- Representing relationships on social networks
+- Computer networks
+- Project management
+- Game theory
 
 
