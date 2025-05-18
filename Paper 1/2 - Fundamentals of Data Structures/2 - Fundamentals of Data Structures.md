@@ -53,15 +53,15 @@ There are several types of queue:
 - Circular queue
 - Priority queue
 
-### Linear queue
+#### Linear queue
 
-In a linear queue, a front pointer is not needed.
+In a *linear queue*, a front pointer is not needed.
 
 The first item in the array always represents the front of the queue. When an item is enqueued, every single item in the queue must be moved forwards in the array. This can be inefficient, especially for larger queues.
 
-### Circular queue
+#### Circular queue
 
-A circular queue uses a front pointer and a rear pointer.
+A *circular queue* uses a front pointer and a rear pointer.
 
 When an item is enqueued, the rear pointer is incremented by one. When an item is dequeued, the front pointer is incremented by one.
 
@@ -71,11 +71,24 @@ This is much more efficient than a linear queue when the queue is large as it av
 
 However, it comes with more implementation complexity. A linear queue may be more appropriate for a smaller queue.
 
-### Priority queue
+#### Priority queue
 
-A priority queue enqueues items to the rear of a queue alongside a priority level.
+A *priority queue* enqueues items to the rear of a queue alongside a priority level.
 
 Items with the highest priority are always dequeued first, so when a value is enqueued the new item's priority is compared to every priority in the list, starting at the back.
+
+An example of where this is used is applications on a computer system, which are assigned priorities. Applications being used by the user are prioritised over background applications, allowing for a faster user experience.
+
+### Stacks
+
+A *stack* is another abstract data structure based on an array.
+
+It is a last in, first out (LIFO) data structure as items are pushed and retrieved from the top of the stack.
+
+Common uses of a stack include:
+- Reversing a list of values
+- Keeping track of and performing undo operations
+- A call stack for keeping track of subroutine calls
 
 
 
