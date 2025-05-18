@@ -53,19 +53,29 @@ There are several types of queue:
 - Circular queue
 - Priority queue
 
-### Linear queues
+### Linear queue
 
 In a linear queue, a front pointer is not needed.
 
 The first item in the array always represents the front of the queue. When an item is enqueued, every single item in the queue must be moved forwards in the array. This can be inefficient, especially for larger queues.
 
-### Circular queues
+### Circular queue
 
 A circular queue uses a front pointer and a rear pointer.
 
-When an item is 
+When an item is enqueued, the rear pointer is incremented by one. When an item is dequeued, the front pointer is incremented by one.
 
+When a pointer reaches the end of an array, it wraps back around to the start.
 
+This is much more efficient than a linear queue when the queue is large as it avoids having to move every single item down when a new value is enqueued.
+
+However, it comes with more implementation complexity. A linear queue may be more appropriate for a smaller queue.
+
+### Priority queue
+
+A priority queue enqueues items to the rear of a queue alongside a priority level.
+
+Items with the highest priority are always dequeued first, so when a value is enqueued the new item's priority is compared to every priority in the list, starting at the back.
 
 
 
