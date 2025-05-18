@@ -139,7 +139,7 @@ In a *disconnected graph*, two or more vertices are not connected to the rest of
 
 ### Graph representation
 
-There are two ways to represent a graph on a computer system: using an *adjacency list or using an *adjacency matrix*.
+There are two ways to represent a graph on a computer system: using an *adjacency list* or using an *adjacency matrix*.
 
 #### Adjacency lists
 
@@ -159,7 +159,26 @@ This is efficient for *sparse graphs*, which have many vertices but few edges. A
 
 #### Adjacency matrices
 
-An *adjacency matrix* 
+An *adjacency matrix* uses a grid to store details of adjacent nodes. For an unweighted graph, the adjacency matrix uses a binary number to show the presence or lack of an edge. For a weighted graph, this value represents the weight of that edge.
+
+This is efficient for *dense graphs*, with few vertices but many edges.
+
+In an undirected graph, adjacency matrices form a diagonal line of symmetry. Directed graphs are asymmetrical. Where nodes are not adjacent, the cost of traversing them is infinite.
+
+For example:
+
+|       | **A**    | **B**    | **C**    | **D**    | **E**    |
+| ----- | -------- | -------- | -------- | -------- | -------- |
+| **A** | $\infty$ | 20       | 30       | $\infty$ | $\infty$ |
+| **B** | 20       | $\infty$ | 30       | $\infty$ | 25       |
+| **C** | 30       | 30       | $\infty$ | 35       | $\infty$ |
+| **D** | $\infty$ | $\infty$ | 35       | $\infty$ | 40       |
+| **E** | $\infty$ | 25       | $\infty$ | 40       | $\infty$ |
+
+
+
+
+
 
 
 
