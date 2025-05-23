@@ -252,3 +252,8 @@ $$\Large 0 \to 3$$
 $$\Large 1 \to 5$$
 
 ### Vector manipulation
+
+Ts stuff is so easy if you do A level maths I'm not gonna spell it all out.
+
+The result of vector addition is *translation*, if we consider the end point 
+
