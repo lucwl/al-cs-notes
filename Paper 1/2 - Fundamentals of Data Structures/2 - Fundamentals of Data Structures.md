@@ -191,3 +191,7 @@ Uses of a tree:
 - Creating binary search trees
 - Creating minimum spanning trees for a graph
 - File systems
+
+A *binary tree* is a rooted tree in which each node has at most two child nodes.
+
+
