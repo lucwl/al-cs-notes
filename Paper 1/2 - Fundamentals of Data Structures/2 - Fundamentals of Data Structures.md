@@ -215,5 +215,5 @@ A binary search tree will always be able to produce a perfectly ordered list of 
 
 ## Hash tables
 
-
+A *hash table* is a data structure in which values are indexed with keys, determined by a hashing algorithm. This enables $O(1)$ lookup times
 
