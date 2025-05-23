@@ -246,4 +246,9 @@ Vectors can be represented in the list representation, such as $[3, 5]$. The fir
 
 A two-dimensional vector is known as a *2-vector*. A two-dimensional vector made up of real numbers exists in a two-dimensional space known as $\mathbb{R}2$.
 
-Using function representation, the vector $[3, 5]$$ 
+Using function representation, the vector $[3, 5]$ could be written as:
+
+$$\Large 0 \to 3$$
+$$\Large 1 \to 5$$
+
+### Vector manipulation
