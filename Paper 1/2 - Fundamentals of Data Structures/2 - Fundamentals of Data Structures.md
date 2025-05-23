@@ -204,3 +204,4 @@ They consist of:
 | Branch  | a node that comes after the root and has one or two child nodes |
 | Leaf    | a node that does not have any child nodes                       |
 
+*Binary search trees* can be used to quickly and easily search through data.
