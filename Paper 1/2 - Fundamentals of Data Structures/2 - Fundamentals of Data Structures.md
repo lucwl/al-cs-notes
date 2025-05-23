@@ -192,6 +192,15 @@ Uses of a tree:
 - Creating minimum spanning trees for a graph
 - File systems
 
+### Binary Trees
+
 A *binary tree* is a rooted tree in which each node has at most two child nodes.
 
+They consist of:
+
+| Feature | Description                         |
+| ------- | ----------------------------------- |
+| Root    | the node that is the starting point |
+| Branch  |                                     |
+| Leaf    |                                     |
 
