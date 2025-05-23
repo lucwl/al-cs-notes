@@ -205,3 +205,15 @@ They consist of:
 | Leaf    | a node that does not have any child nodes                       |
 
 *Binary search trees* can be used to quickly and easily search through data.
+
+The following process is followed when adding a node to a binary tree:
+1. Set the current node to the root node
+2. Compare the item to the value of the current node: if the item is less than the value, set the current node to the current node's left child, if the item is greater than the value, set hte current node to the current node's right child
+3. If that child does not exist, create a new child node with the item's value, otherwise go back to step 2
+
+A binary search tree will always be able to produce a perfectly ordered list of the values.
+
+## Hash tables
+
+
+
