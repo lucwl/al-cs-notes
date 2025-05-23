@@ -198,9 +198,9 @@ A *binary tree* is a rooted tree in which each node has at most two child nodes.
 
 They consist of:
 
-| Feature | Description                         |
-| ------- | ----------------------------------- |
-| Root    | the node that is the starting point |
-| Branch  |                                     |
-| Leaf    |                                     |
+| Feature | Description                                                     |
+| ------- | --------------------------------------------------------------- |
+| Root    | the node that is the starting point of the tree                 |
+| Branch  | a node that comes after the root and has one or two child nodes |
+| Leaf    | a node that does not have any child nodes                       |
 
