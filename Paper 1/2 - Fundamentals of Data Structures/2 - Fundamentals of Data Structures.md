@@ -215,5 +215,23 @@ A binary search tree will always be able to produce a perfectly ordered list of 
 
 ## Hash tables
 
-A *hash table* is a data structure in which values are indexed with keys, determined by a hashing algorithm. This enables $O(1)$ lookup times
+A *hash table* is a data structure in which values are indexed with keys, determined by a hashing algorithm. This enables $O(1)$ lookup times.
+
+A *hashing algorithm* takes in a value and returns a hash. A hash is unique to its input and the hash cannot be reversed to find the value. The same hash is always returned for each input.
+
+A hash table stores key-value pairs. When an element is looked up, the key is hashed and the position in the table related to that hash is queried and the value returned. 
+
+Sometimes different values can produce the same hash, this is known as a *hash collision*. This could result in data being overwritten in a poorly designed system.
+
+A simple solution to a collision is storing the value in the next available index.
+
+A better solution is to use *rehashing*, using a new hashing algorithm that will provide more possible values and recalculating the hashes for each existing value.
+
+Uses of hashing algorithms include:
+- Checksums
+- Storing passwords in databases
+- Encryption
+
+
+
 
