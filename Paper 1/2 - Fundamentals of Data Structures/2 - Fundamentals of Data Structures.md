@@ -255,5 +255,17 @@ $$\Large 1 \to 5$$
 
 Ts stuff is so easy if you do A level maths I'm not gonna spell it all out.
 
-The result of vector addition is *translation*, if we consider the end point 
+The result of vector addition is *translation*, if we consider the end point of the vector.
 
+The result of scalar-vector multiplication is *scaling*.
+
+The convex combination of two vectors means that two vectors must be multiplied by two scalar numbers which add up to exactly 1 and are both positive, greater than or equal to 1. The resulting vector lies on the line between the ends of the two original vectors.
+
+It can be represented as:
+$$\Large \alpha \vec{u} \; + \; \beta \vec{v} $$
+where $\vec{u}$ and $\vec{v}$ are vectors and $\alpha$ and $\beta$ are scalars respectively.
+
+The *dot product* or *scalar product* of two vectors is written as:
+
+$$\Large \vec{u} \; . \; \vec{v}$$
+The result of the dot product is always a scalar. It can be used to calculate the angle between two vectors.
