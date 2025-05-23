@@ -232,6 +232,18 @@ Uses of hashing algorithms include:
 - Storing passwords in databases
 - Encryption
 
+## Dictionaries
 
+A *dictionary* is a collection of key-value pairs, in which the value is found by looking up the key.
 
+They are used for information retrieval, such as in frequency analysis or dictionary-based compression.
 
+## Vectors
+
+While *scalars* in mathematics represent a single value, a *vector* has both a magnitude and an associated direction. They are often used to describe a position.
+
+Vectors can be represented in the list representation, such as $[3, 5]$. The first value represents the horizontal position and the second value represents the vertical position.
+
+A two-dimensional vector is known as a *2-vector*. A two-dimensional vector made up of real numbers exists in a two-dimensional space known as $\mathbb{R}2$.
+
+Using function representation, the vector $[3, 5]$$ 
